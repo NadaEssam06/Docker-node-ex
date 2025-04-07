@@ -23,5 +23,7 @@ jobs:
        username: ${{ secrets.HUB_USER_NAME }}
        password: ${{ secrets.HUB_PASSWORD }}
        tags: latest
+       registry-username: ${{ secrets.HUB_USER_NAME }}
+       registry-password: ${{ secrets.HUB_PASSWORD }}
 
       
