@@ -19,6 +19,7 @@ jobs:
       with:
        image: nadaessam1806/nodeapp
        registry: docker.io
+       dockerfile: Dockerfile
        username: ${{ secrets.HUB_USER_NAME }}
        password: ${{ secrets.HUB_PASSWORD }}
        tags: latest
