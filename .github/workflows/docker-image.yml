@@ -17,7 +17,7 @@ jobs:
     - name:  Build the Docker image & Push to Docker Hub
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-       image: nodeapp
+       image: nadaessam1806/app
        registry: docker.io
        dockerfile: Dockerfile
        username: ${{ secrets.HUB_USER_NAME }}
